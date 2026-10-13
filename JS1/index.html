@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Filmes - Catálogo Interativo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho" id="inicio">
+        <h1>Aura Filmes</h1>
+        <h2 class="subtitulo">Seu destino para o entretenimento!!!</h2>
+        <div class="menu">
+            <a href="#inicio">Início</a>
+            <a href="#destaque">Destaque</a>
+            <a href="#catalogo">Catálogo</a>
+            <a href="#favoritos">Favoritos</a>
+            <a href="#lancamentos">Lançamentos</a>
+            <a href="#sobre">Sobre / Contato</a>
+        </div>
+    </header>
+
+    <section id="destaque" class="secao-destaque">
+        <h2>Destaque da Semana</h2>
+        <div class="caixa-filme">
+            <div class="imagem-filme">
+                <img src="assets/o_lobisomem.jpeg" alt="Pôster de O Lobisomem">
+            </div>
+            <div class="informacoes-filme">
+                <h3>O Lobisomem</h3>
+                <p class="sinopse">
+                    Lawrence Talbot (Benicio Del Toro), um nobre e ator traumatizado por seu passado,
+                    retorna à sua terra natal - a sombria vila de Blackmoor, na Inglaterra - após
+                    a misteriosa morte e o desaparecimento de seu irmão, Ben.
+                </p>
+                <h3>Gêneros:</h3>
+                <ul class="generos">
+                    <li>Drama</li>
+                    <li>Suspense</li>
+                    <li>Terror</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="catalogo" class="secao-catalogo">
+        <h2 id="titulo-catalogo">Catálogo</h2>
+        <div class="controles">
+            <input type="text" id="busca" placeholder="Buscar filme...">
+            <select id="filtro-genero">
+                <option>Todos</option>
+                <option>Romance</option>
+                <option>Fantasia</option>
+                <option>Terror</option>
+                <option>Ficção</option>
+                <option>Animação</option>
+                <option>Ação</option>
+            </select>
+            <button id="btn-inverter">Inverter ordem</button>
+        </div>
+        <p class="contador">Filmes mostrados: <span id="contador">0</span></p>
+        <div id="grade-filmes" class="grade-filmes">
+        </div>
+    </section>
+    <section id="favoritos" class="secao-favoritos">
+        <h2>Meus favoritos</h2>
+        <p>Favoritos: <span id="contador-favoritos">0</span></p>
+        <ul id="lista-favoritos"></ul>
+        <button id="btn-limpar-favoritos">Limpar favoritos</button>
+    </section>
+    <section id="lancamentos" class="secao-lancamentos">
+        <h2>Lançamentos</h2>
+        <table class="tabela-filmes">
+        <thead>
+        <tr>
+            <th>Filme</th>
+            <th>Ano</th>
+            <th>Nota</th>
+            <th>Status</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Harry Potter e as Relíquias da Morte – Parte 2</td>
+            <td>2011</td>
+            <td>8,1</td>
+            <td>Lançado</td>
+        </tr>
+        <tr>
+            <td>Como Eu Era Antes De Você</td> 
+            <td>2016</td>
+            <td>7,4</td>
+            <td>Lançado</td>
+        </tr>
+        <tr>
+            <td>O Lobisomem</td>
+            <td>2010</td>
+            <td>9,9</td>
+            <td>Lançado</td>
+        </tr>
+        <tr>
+            <td>Através da Minha Janela</td>
+            <td>2022</td>
+            <td>5,5</td>
+            <td>Fora de Cartaz</td>
+        </tr>
+        <tr>
+            <td>O Senhor dos Anéis: O Retorno do Rei</td>
+            <td>2003</td>
+            <td>9,0</td>
+            <td>Lançado</td>
+        </tr>
+            </tbody>
+            </table>
+        </section>
+
+    <section id="sobre" class="secao-sobre">
+    <h2>Sobre / Contato</h2>
+
+    <p>
+        <img class="imagem-sobre" src="assets/imagem_cinema.png" alt="Sala de cinema">
+
+        O Aura Filmes é um espaço para quem gosta de cinema.
+        Aqui você encontra sugestões de filmes, informações
+        sobre diferentes gêneros e uma seleção de títulos para
+        sua próxima sessão. Nosso objetivo é compartilhar
+        histórias que emocionam, surpreendem e divertem.
+        Para acompanhar novidades ou enviar sugestões,
+        entre em contato pelas nossas redes sociais.
+    </p>
+
+    <div class="redes-sociais">
+        <a href="https://www.instagram.com/asethrya" target="_blank">Instagram</a>
+    </div>
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>

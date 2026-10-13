@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0 16px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("assets/cinema.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: yellow;
+}
+h1 {
+    font-size: 5rem;
+    margin: 20px 0;
+    text-align: center;
+    text-shadow: 6px 6px 8px #000000;
+}
+.cabecalho {
+    padding: 60px 0 20px;
+    text-align: center;
+}
+.subtitulo {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-shadow: 6px 6px 8px #000000;
+}
+.menu a {
+    display: inline-block;
+    margin: 5px;
+    padding: 12px 18px;
+    color: yellow;
+    font-size: 22px;
+    text-decoration: none;
+    text-shadow: 6px 6px 8px #000000;
+}
+.menu a:hover,
+.menu a:focus {
+    color: #ff4040;
+}
+.secao-destaque,
+.secao-catalogo,
+.secao-lancamentos,
+.secao-favoritos,
+.secao-sobre {
+    max-width: 1100px;
+    margin: 60px auto;
+}
+h2 {
+    font-size: 32px;
+    text-shadow: 6px 6px 8px #000000;
+}
+.caixa-filme {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    background-color: #0000006e;
+    border: 1px solid #e6ab0a;
+    border-radius: 50px;
+    padding: 28px;
+}
+.imagem-filme {
+    width: 280px;
+}
+.imagem-filme img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.informacoes-filme {
+    font-size: 18px;
+    line-height: 1.5;
+    text-shadow: 6px 6px 8px #000000;
+}
+.generos {
+    list-style-type: square;
+}
+.grade-filmes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.card-filme {
+    width: calc((100% - 50px) / 3);
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.85);
+    border: 1px solid #d4af37;
+    border-radius: 15px;
+    text-align: center;
+}
+.card-filme img {
+    display: block;
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+.card-filme h3 {
+    font-size: 18px;
+    min-height: 44px;
+    margin: 20px 0;
+    text-shadow: 6px 6px 8px #000000;
+}
+.card-filme p {
+    font-size: 16px;
+    margin: 12px 0;
+}
+.card-filme .selo {
+    min-height: 24px;
+    color: #ffe477;
+    font-weight: bold;
+}
+.controles {
+    padding: 18px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.85);
+    border: 1px solid #d4af37;
+    border-radius: 15px;
+    font-size: 18px;
+}
+input,
+select {
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid #d4af37;
+    border-radius: 8px;
+    font-size: 17px;
+    background-color: #fff7dc;
+    color: #181010;
+}
+input {
+    width: 280px;
+}
+button {
+    padding: 11px 16px;
+    color: yellow;
+    background-color: #351010;
+    border: 1px solid #d4af37;
+    border-radius: 8px;
+    font-size: 17px;
+}
+button:hover {
+    color: #ff8585;
+    border-color: #ff4040;
+    background-color: #650000;
+}
+.contador,
+.sem-resultados {
+    font-size: 20px;
+}
+.tabela-filmes {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.85);
+    font-size: 20px;
+}
+.tabela-filmes th,
+.tabela-filmes td {
+    padding: 18px;
+    border: 1px solid #d4af37;
+    text-align: left;
+}
+.tabela-filmes th {
+    background-color: #650000;
+}
+.tabela-filmes tbody tr:nth-child(even) {
+    background-color: #351010;
+}
+.secao-favoritos,
+.secao-sobre {
+    box-sizing: border-box;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.85);
+    border: 1px solid #d4af37;
+    border-radius: 15px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+.secao-favoritos h2,
+.secao-sobre h2 {
+    margin-top: 0;
+}
+.imagem-sobre {
+    float: right;
+    width: 160px;
+    max-width: 40%;
+    height: auto;
+    margin: 0 0 15px 20px;
+    border-radius: 8px;
+}
+.redes-sociais {
+    padding-top: 20px;
+}
+.redes-sociais a {
+    display: inline-block;
+    padding: 10px 18px;
+    color: yellow;
+    border: 1px solid yellow;
+    border-radius: 8px;
+    text-decoration: none;
+    text-shadow: 6px 6px 8px #000000;
+}
+.redes-sociais a:hover,
+.redes-sociais a:focus {
+    color: #ff4040;
+    border-color: #ff4040;
+    background-color: #650000;
+}
