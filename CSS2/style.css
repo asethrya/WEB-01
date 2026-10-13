@@ -1,0 +1,202 @@
+body {
+     background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+        ),
+        url("cinema.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     }
+h1 {
+    color: yellow;
+    text-align: center;
+    font-size: 5rem;
+    text-shadow: 6px 6px 8px #000000; /* sombra do texto */
+}
+.cabecalho {
+    padding-top: 80px;
+    padding-bottom: 1000px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.subtitulo {
+    color: yellow;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 6px 6px 8px #000000; /* sombra do texto */
+    padding-bottom: 100px;
+}
+.lobisomem {
+    display: block;
+    margin: 0 ;
+    max-width: 100%;
+    height: auto;
+}
+.caixa-filme {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    background-color: #0000006e;
+    border: 1px solid #e6ab0a;
+    border-radius: 50px;
+    padding: 28px;
+}
+
+.secao-destaque {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 0 20px;
+    margin-top: -1050px;;
+}
+.secao-destaque h2 {
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 28px;
+    color: yellow;
+    text-shadow: 6px 6px 8px #000000;
+}
+.informacoes-filme {
+    color: yellow;
+    font-size: 18px;
+    line-height: 1.5;
+    text-shadow: 6px 6px 8px #000000;
+}
+.secao-catalogo{
+    margin: 180px auto;
+    color: yellow;
+    max-width: 1100px;
+}
+.secao-catalogo h2 {
+    font-size: 32px;
+    margin-bottom: 100px;
+    color: yellow;
+    text-shadow: 6px 6px 8px #000000;
+}
+.grade-filmes {
+    display: flex;
+    gap: 25px;
+}
+.secao-catalogo a {
+    color: yellow;
+    text-decoration: underline;
+    font-size: 18px;
+    text-shadow: 6px 6px 8px #000000;
+}
+.card-filme {
+    width: 620px;
+    background-color: rgba(0, 0, 0, 0.85);
+    border: 1px solid #d4af37;
+    border-radius: 15px;
+    padding: 15px;
+    height: 500px;
+}
+.card-filme img {
+    display: block;
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 8px;
+}
+.card-filme h3 {
+    margin-top: 40px;
+}
+#lancamentos {
+    margin-top: 100px;
+    max-width: 1100px;
+    margin: 100px auto 60px;
+}
+#lancamentos h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: yellow;
+    text-shadow: 6px 6px 8px #000000;
+}
+.tabela-filmes {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: yellow;
+    font-size: 25px;
+}
+.tabela-filmes th {
+    background-color: #650000;
+    color: yellow;
+    padding: 15px;
+    border: 1px solid #d4af37;
+    text-align: left;
+}
+.tabela-filmes td {
+    padding: 15px;
+    border: 1px solid #d4af37;
+}
+.tabela-filmes tbody tr:nth-child(even) {
+    background-color: #351010;
+}
+.menu {
+    text-align: center;
+    padding-bottom: 250px;
+}
+.menu a {
+    margin: 5px;
+    padding: 12px 22px;
+    color: yellow;
+    font-size: 24px;
+    text-decoration: none;
+    text-shadow: 6px 6px 8px #000000;
+}
+.menu a:hover {
+    color: #ff4040;
+    border-color: #ff4040;
+}
+.secao-sobre {
+    max-width: 1100px;
+    margin: 80px auto;
+    padding: 25px;
+    box-sizing: border-box;
+
+    background-color: rgba(0, 0, 0, 0.85);
+    border: 1px solid #d4af37;
+    border-radius: 15px;
+
+    color: yellow;
+    font-size: 20px;
+    line-height: 1.6;
+}
+.secao-sobre h2 {
+    margin-top: 0;
+    font-size: 32px;
+    text-shadow: 6px 6px 8px #000000;
+}
+.imagem-sobre {
+    float: right;
+    width: 160px;
+    max-width: 40%;
+    height: auto;
+    margin: 0 0 15px 20px;
+    border-radius: 8px;
+}
+.redes-sociais {
+    clear: both;
+    padding-top: 20px;
+}
+.redes-sociais a {
+    display: inline-block;
+    padding: 10px 18px;
+
+    color: yellow;
+    border: 1px solid yellow;
+    border-radius: 8px;
+    text-decoration: none;
+    text-shadow: 6px 6px 8px #000000;
+}
+.redes-sociais a:hover,
+.redes-sociais a:focus {
+    color: #ff4040;
+    border-color: #ff4040;
+    background-color: #650000;
+}
