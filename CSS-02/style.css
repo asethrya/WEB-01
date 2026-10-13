@@ -1,0 +1,90 @@
+.lista1 {
+    list-style-type: square; /* Quadrado */
+}
+
+.lista2 {
+    list-style-type: upper-roman; /* Algarismos romanos */
+}
+
+.lista3 {
+    list-style-image: url("icone.png"); /* Marcador com imagem */
+    padding-left: 150px;
+}
+
+.tabela {
+border-collapse: collapse; /* Unifica bordas */
+width: 100%;
+}
+.tabela th, .tabela td {
+border: 1px solid #999;
+padding: 8px;
+text-align: left;
+}
+.tabela tr:nth-child(even) {
+background-color: #f2f2f2; /* Linhas em alternação */
+}
+.link1 {
+color: blue;
+text-decoration: none; /* Remove o sublinhado do texto*/
+}
+.link2 {
+color: #0a66c2;
+text-decoration: underline;
+}
+.link2:hover {
+color: red;
+text-decoration: none;
+}
+.link2:visited {
+color: purple;
+}
+.link2:active {
+color: orange;
+}
+.link3 {
+color: purple;
+text-decoration: underline;
+}
+.link3:hover {
+color: black;
+text-decoration: none;
+}
+.link3:visited {
+color: pink;
+}
+.link3:active {
+color: red;
+}
+.ex1 {
+display: inline; /* ocupa apenas o espaço do conteúdo */
+background: pink;
+}
+.ex2 {
+display: block; /* ocupa toda a linha */
+background: lavender;
+}
+.v1 {
+visibility: visible; /* padrão */
+}
+.v2 {
+visibility: hidden; /* fica invisível mas mantém espaço */
+}
+.v3 {
+display: none; /* remove totalmente o elemento do
+layout */
+}
+.caixa1 {
+width: 100px;
+height: 60px;
+background-color: lavenderblush;
+}
+.caixa2 {
+width: 50%; /* metade do container */
+font-size: 2em; /* 2x a fonte do pai */
+background-color: fuchsia;
+}
+.caixa3 {
+font-size: 1.5rem; /* 1.5x a fonte raiz */
+height: 50vh; /* metade da altura da tela */
+background-color: lightcoral;
+}
